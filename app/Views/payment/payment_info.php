@@ -99,7 +99,7 @@
                 success: function (response) {
                     if (response.status === 'success') {
                         // Buka link WhatsApp di tab baru
-                        window.open('https://wa.me/6285156962571?text=sudah%20saya%20bayar%20(jangan%20lupa%20sebutkan%20no%20order)', '_blank');
+                        window.open('https://wa.me/628123456789?text=sudah%20saya%20bayar%20(jangan%20lupa%20sebutkan%20no%20order)', '_blank');
                         // Kembali ke halaman keranjang
                         window.location.href = '/cart';
                     } else {
